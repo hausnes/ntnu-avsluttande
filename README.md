@@ -1,0 +1,2 @@
+# ntnu-avsluttande
+Avsluttande oppgåve.
