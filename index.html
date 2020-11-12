@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Endre farge</title>
+</head>
+<body>
+    <input type="color" id="inputFarge">
+    <button id="knappEndreFarge">Endre farge</button>
+
+    <script>
+        document.getElementById("knappEndreFarge").addEventListener("click",endreFarge);
+        function endreFarge() {
+            var farge = document.getElementById("inputFarge").value;
+            console.log(farge);
+            document.body.style.backgroundColor = farge;
+        }
+    </script>
+</body>
+</html>
